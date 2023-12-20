@@ -1,0 +1,12 @@
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: abhishek1
+    url: jdbc:mysql://localhost:3306/curdOperation
+    username: abhishek
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
